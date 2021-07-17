@@ -5,7 +5,10 @@ import UserService from "../services/user.service";
 import * as redis from "redis";
 
 const PORT_REDIS = + process.env.PORT_REDIS || 6379;
-const redisClient = redis.createClient(PORT_REDIS);
+const redisClient = redis.createClient({
+    host: 'redisdb',
+    port: PORT_REDIS
+});
 
 
 class UserController {

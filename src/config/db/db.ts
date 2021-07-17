@@ -1,6 +1,6 @@
 import * as mongoose from "mongoose";
 
-export const connect = mongoose.connect('mongodb://localhost:27017/elearning',{ 
+export const connect = mongoose.connect('mongodb://mongodb:27017/flash',{ 
         useNewUrlParser: true, 
         useUnifiedTopology: true
     }

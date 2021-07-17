@@ -10,10 +10,10 @@ export const swaggerDocument = {
     description: "Food app Application API",
     license: {
       name: "Baemin",
-      url: "http://192.168.1.140:3000/api/docs"
+      url: "http://localhost:3000/api/docs"
     }
   },
-  host: "192.168.1.140:3000",
+  host: "localhost:3000",
   basePath: "/",
   tags: [
     {
